@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111100111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00001100101" font="Open Sans" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100101" font="Open Sans" controllayout="pxabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npxnabnsnfns00001100101" font="Open Sans" controllayout="npxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npnxnanbsnfns11111100111" font="Open Sans" controllayout="npnxnanbsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="pxabnsnfns11111100111" font="Open Sans" controllayout="pxabnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="npxnabnsnfns11111100111" font="Open Sans" controllayout="npxnabnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="npnxnanbnsnfns11111100111" font="Open Sans" controllayout="npnxnanbnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="pxabnsnfns11111100110" font="Open Sans" controllayout="pxabnsnfns11111100110" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,11 +13,14 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Prompt Engineering" />
+              <option name="title_text" value="Introduction to Prompt Engineering-v2" />
             </options>
           </option>
-          <option name="logo_enabled" value="false">
-            <options />
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content\6ALwnSp5omo_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/5crC9IaduwH.png" />
+            </options>
           </option>
           <option name="sidebar_enabled" value="true">
             <options>
@@ -43,12 +46,12 @@
               <option name="height" value="135" />
             </options>
           </option>
-          <option name="logoAltText" />
+          <option name="logoAltText" value="UnishareLogo.png" />
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option name="flow" value="free" />
+          <option name="flow" value="restricted" />
           <option name="wraplistitems" value="false" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
@@ -59,15 +62,15 @@
       <optiongroup name="controls">
         <options>
           <option name="volume" value="true" />
-          <option name="seekbar" value="false">
+          <option name="seekbar" value="true">
             <options>
-              <option name="readonly" value="false" />
+              <option name="readonly" value="true" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
-          <option name="pauseplay" value="false" />
-          <option name="replay" value="false" />
-          <option name="search" value="false" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
           <option name="closed_captions" value="true">
             <options>
               <option name="font" value="Open Sans" />
@@ -86,12 +89,12 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001100101">
+    <control_layout name="npnxnanbsnfns11111100111">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -104,17 +107,17 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="false" />
+          <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100101">
+    <control_layout name="pxabnsnfns11111100111">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -127,17 +130,17 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="false" />
+          <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001100101">
+    <control_layout name="npxnabnsnfns11111100111">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
@@ -150,17 +153,17 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="false" />
+          <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001100101">
+    <control_layout name="npnxnanbnsnfns11111100111">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -173,17 +176,17 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="false" />
+          <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100100">
+    <control_layout name="pxabnsnfns11111100110">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -196,14 +199,14 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="false" />
+          <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001100101">
+    <colorscheme name="pxabnsnfns11111100111">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1117,10 +1120,21 @@
           </color>
         </group_colors>
       </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001100101">
+    <string_table name="pxabnsnfns11111100111">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1286,20 +1300,16 @@
   <nav_data>
     <outline>
       <links>
+        <slidelink slideid="_player.6SqHdKMu97N" displaytext="Prelim" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SqHdKMu97N.5jUqiWrHcQa" displaytext="splashscreen" expand="false" type="slide" />
+            <slidelink slideid="_player.6SqHdKMu97N.5qoeUUozXwE" displaytext="titleslide" expand="false" type="slide" />
+            <slidelink slideid="_player.6SqHdKMu97N.6MG6BVBSBXa" displaytext="outlines" expand="false" type="slide" />
+          </links>
+        </slidelink>
         <slidelink slideid="_player.6cZQQx0qlS4" displaytext="Introduction" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6cZQQx0qlS4.5nOMr4Zpgcl" displaytext="splashscreen" expand="false" type="slide" />
-            <slidelink slideid="_player.6cZQQx0qlS4.6WMlhXpoeIv" displaytext="titleslide" expand="false" type="slide" />
-            <slidelink slideid="_player.6cZQQx0qlS4.69oZ4g7buLi" displaytext="outlines" expand="false" type="slide" />
             <slidelink slideid="_player.6cZQQx0qlS4.6BByxDbAZIs" displaytext="Intro" expand="false" type="slide" />
-            <slidelink slideid="_player.6cZQQx0qlS4.6PLcoeRwmJb" displaytext="2. Intro" expand="false" type="slide" />
-            <slidelink slideid="_player.6cZQQx0qlS4.5pjvgil7XhH" displaytext="Definition and examples of prompts" expand="false" type="slide" />
-            <slidelink slideid="_player.6cZQQx0qlS4.6SzTj9JJ4SO" displaytext="vague and good prompt" expand="false" type="slide" />
-            <slidelink slideid="_player.6cZQQx0qlS4.6pys2V1uU1f" displaytext="Quiz2" expand="false" type="slide" />
-            <slidelink slideid="_player.6cZQQx0qlS4.64S1fgnS6Z1" displaytext="Which of the following best describes the primary role of prompts in AI language models?" expand="false" type="slide" />
-            <slidelink slideid="_player.6cZQQx0qlS4.5XxHQ1qiNik" displaytext="What can be the consequence of using vague prompts in AI interactions?" expand="false" type="slide" />
-            <slidelink slideid="_player.6cZQQx0qlS4.6oxvNnI3lSz" displaytext="According to the lesson, how does clarity in prompting impact AI responses?" expand="false" type="slide" />
-            <slidelink slideid="_player.6cZQQx0qlS4.6RkeIRJAAC6" displaytext="What is the significance of tailoring prompts according to the lesson?" expand="false" type="slide" />
             <slidelink slideid="_player.6cZQQx0qlS4.5V3dDoe6mD7" displaytext="What are prompts?" expand="false" type="slide" />
             <slidelink slideid="_player.6cZQQx0qlS4.5f8a4mdgVS8" displaytext="Basic Principles of Prompt" expand="false" type="slide" />
             <slidelink slideid="_player.6cZQQx0qlS4.6FXaJVX4wrF" displaytext="Quiz1" expand="false" type="slide" />
@@ -1309,8 +1319,41 @@
             <slidelink slideid="_player.6cZQQx0qlS4.5vGEo1mDOFj" displaytext="What is the primary role of prompts in AI language models?" expand="false" type="slide" />
           </links>
         </slidelink>
+        <slidelink slideid="_player.637T3qZ44IQ" displaytext="understanding Prompts" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.637T3qZ44IQ.64hqGCqVDV9" displaytext="2. Intro" expand="false" type="slide" />
+            <slidelink slideid="_player.637T3qZ44IQ.5vYtO7v7vLb" displaytext="Definition and examples of prompts" expand="false" type="slide" />
+            <slidelink slideid="_player.637T3qZ44IQ.6ai2AoWWtZ8" displaytext="vague and good prompt" expand="false" type="slide" />
+            <slidelink slideid="_player.637T3qZ44IQ.5kMYWC1vqCY" displaytext="Quiz2" expand="false" type="slide" />
+            <slidelink slideid="_player.637T3qZ44IQ.5YPgkOUCkqO" displaytext="Which of the following best describes the primary role of prompts in AI language models?" expand="false" type="slide" />
+            <slidelink slideid="_player.637T3qZ44IQ.6Eo30zQt3S1" displaytext="What can be the consequence of using vague prompts in AI interactions?" expand="false" type="slide" />
+            <slidelink slideid="_player.637T3qZ44IQ.6qqWF3bARTB" displaytext="According to the lesson, how does clarity in prompting impact AI responses?" expand="false" type="slide" />
+            <slidelink slideid="_player.637T3qZ44IQ.6bBrtotpc32" displaytext="What is the significance of tailoring prompts according to the lesson?" expand="false" type="slide" />
+          </links>
+        </slidelink>
       </links>
     </outline>
+    <search>
+      <slidetext slideid="6cZQQx0qlS4.6BByxDbAZIs" slidebank="false" type="slide">1.0 introduction to prompt engineering objectives by the end of this lesson you will: have a clear understanding of the fundamental principles of prompt engineering; learn how prompts function and  understand prompt role in shaping the behavior and outputs of ai systems.   next back 1.0 introduction to prompt engineering introduction prompt engineering is a crucial aspect of working with ai language models. in this lesson we will explore what prompts are their significance and how they guide ai responses.  understanding the basics of prompt engineering is essential for anyone looking to harness the power of ai effectively. next</slidetext>
+      <slidetext slideid="6cZQQx0qlS4.5V3dDoe6mD7" slidebank="false" type="slide"> 1.1 what are prompts? next  prompts play a pivotal role in various applications from chatbots and virtual assistants to content generation and data analysis. by mastering prompt engineering you can enhance the performance of ai systems in diverse domains. back    1.1 what are prompts? next the significance of prompts lies in their ability to influence the quality and relevance of ai-generated content. a well-crafted prompt can lead to accurate and useful responses while a poorly designed prompt may result in vague or irrelevant outputs. therefore understanding how to create effective prompts is vital for leveraging ai technology. back   1.1 what are prompts? next prompts are inputs given to ai language models to elicit specific responses. they serve as the starting point for the ai's generation process guiding it to produce relevant and coherent outputs. prompts can be questions statements or any form of text that provides context for the ai to understand and respond appropriately.  </slidetext>
+      <slidetext slideid="6cZQQx0qlS4.5f8a4mdgVS8" slidebank="false" type="slide"> 1.2 basic principles of prompt engineering?   clarity clarity clarity clarity specificity specificity specificity specificity context context context context testing testing testing testing  effective prompt engineering also involves iterative testing and refinement. by experimenting with different prompts and analyzing the ai's responses you can fine-tune your prompts to achieve optimal results. this iterative process is key to mastering the art of prompt engineering. next  1.2 basic principles of prompt engineering?   clarity clarity clarity specificity specificity specificity context context context context testing testing testing testing  context is another critical element in prompt engineering. providing sufficient context allows the ai to generate responses that are coherent and aligned with the desired outcome.  this involves including relevant information and setting the stage for the ai to understand the nuances of the prompt.  1.2 basic principles of prompt engineering?   clarity clarity clarity specificity specificity specificity specificity context context context testing testing testing  specificity helps in narrowing down the ai's focus leading to more precise and relevant responses.  1.2 basic principles of prompt engineering?   clarity clarity clarity clarity specificity specificity specificity context context context testing testing testing  a clear and concise prompt ensures that the ai understands the task at hand without ambiguity. 1.2 basic principles of prompt engineering?  </slidetext>
+      <slidetext slideid="6cZQQx0qlS4.6FXaJVX4wrF" slidebank="false" type="slide"> 1.3 knowledge check lets put your knowledge to test. ready? start</slidetext>
+      <slidetext slideid="6cZQQx0qlS4.6Y9l5Y6G5dJ" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  what is the primary role of prompts in ai language models? to execute predefined command to execute predefined command to execute predefined command to execute predefined command to execute predefined command to execute predefined command to provide context and guide ai responses to provide context and guide ai responses to provide context and guide ai responses to provide context and guide ai responses to provide context and guide ai responses to provide context and guide ai responses to store data for future use to store data for future use to store data for future use to store data for future use to store data for future use to store data for future use to debug ai system to debug ai system to debug ai system to debug ai system to debug ai system to debug ai system  1/4</slidetext>
+      <slidetext slideid="6cZQQx0qlS4.6oC1VrZf3oT" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  which of the following is not mentioned as a basic principle of prompt engineering? clarity clarity clarity clarity clarity clarity context context context context context context creativity creativity creativity creativity creativity creativity specificity specificity specificity specificity specificity specificity  2/4</slidetext>
+      <slidetext slideid="6cZQQx0qlS4.6USzY88fVKz" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue why is iterative testing and refinement important in prompt engineering? it helps to identify and fix bugs in ai system it helps to identify and fix bugs in ai system it helps to identify and fix bugs in ai system it helps to identify and fix bugs in ai system it helps to identify and fix bugs in ai system it helps to identify and fix bugs in ai system it allows for creation of more effective and precise prompt it allows for creation of more effective and precise prompt it allows for creation of more effective and precise prompt it allows for creation of more effective and precise prompt it allows for creation of more effective and precise prompt it allows for creation of more effective and precise prompt it ensures the ai system runs faster it ensures the ai system runs faster it ensures the ai system runs faster it ensures the ai system runs faster it ensures the ai system runs faster it ensures the ai system runs faster it reduces the cost of operating ai system it reduces the cost of operating ai system it reduces the cost of operating ai system it reduces the cost of operating ai system it reduces the cost of operating ai system it reduces the cost of operating ai system  3/4 </slidetext>
+      <slidetext slideid="6cZQQx0qlS4.5vGEo1mDOFj" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  what is the primary role of prompts in ai language models? to execute predefined command to execute predefined command to execute predefined command to execute predefined command to execute predefined command to execute predefined command to provide context and guide ai responses to provide context and guide ai responses to provide context and guide ai responses to provide context and guide ai responses to provide context and guide ai responses to provide context and guide ai responses to store data for future use to store data for future use to store data for future use to store data for future use to store data for future use to store data for future use to debug ai system to debug ai system to debug ai system to debug ai system to debug ai system to debug ai system  4/4</slidetext>
+      <slidetext slideid="637T3qZ44IQ.64hqGCqVDV9" slidebank="false" type="slide"> 1.0 introduction to prompt engineering objectives by the end of this lesson you will: have a clear understanding of what prompts are how they work and why they are important.  this foundational knowledge will be essential for designing effective prompts and improving ai outputs in subsequent lessons.  next back 2.0 understanding prompt introduction in this lesson we will delve deeper into the concept of prompts. prompts are essential in guiding ai language models to generate relevant and accurate responses.  understanding how prompts function and their importance in ai interactions is crucial for anyone working with ai systems.  this lesson will explore different definitions and examples of prompts providing a comprehensive understanding of their role in ai language models. next</slidetext>
+      <slidetext slideid="637T3qZ44IQ.5vYtO7v7vLb" slidebank="false" type="slide"> 2.1 examples of prompts? next understanding the different types of prompts and their applications is essential for effectively interacting with ai language models.  by crafting well-defined prompts users can influence the quality and relevance of the ai's responses making them more useful and accurate. back    2.1 examples next for example a prompt like 'write a story about a brave knight' provides the ai with a clear context and direction leading to a narrative about a knight.  on the other hand a prompt like 'what is the capital of france?' directs the ai to provide a factual answer 'paris'.  these examples illustrate how prompts can vary in complexity and purpose from simple factual queries to more elaborate creative tasks. back    2.1 definition &amp; examples of prompts? next prompts are inputs given to ai language models to guide their responses. they can take various forms such as questions statements or instructions. the primary purpose of a prompt is to provide context and direction to the ai enabling it to generate relevant and coherent outputs.  </slidetext>
+      <slidetext slideid="637T3qZ44IQ.6ai2AoWWtZ8" slidebank="false" type="slide"> 2.3 importance of prompts in ai interactions   the primary means of communication between users and ai language models. enhance the quality of ai outputs making them more useful and reliable. ability to reduce ambiguity and improve the precision of ai responses. minimize the risk of misunderstandings and ensure that the ai generates expected outputs.  play a vital role in shaping the behavior of ai language models.  next  2.2 examples   vague prompt vague prompt vague prompt vague prompt good prompt good prompt good prompt   prompt: tell me an interesting fact about space exploration next  2.2 examples   vague prompt vague prompt vague prompt vague prompt good prompt good prompt good prompt   prompt: tell me something interesting 2.2 vague prompt vs good prompt  </slidetext>
+      <slidetext slideid="637T3qZ44IQ.5kMYWC1vqCY" slidebank="false" type="slide"> 2.3 knowledge check lets put your knowledge to test. ready? start</slidetext>
+      <slidetext slideid="637T3qZ44IQ.5YPgkOUCkqO" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  which of the following best describes the primary role of prompts in ai language models? to provide additional training data to provide additional training data to provide additional training data to provide additional training data to provide additional training data to provide additional training data to serve as main communication method between user and ai to serve as main communication method between user and ai to serve as main communication method between user and ai to serve as main communication method between user and ai to serve as main communication method between user and ai to serve as main communication method between user and ai to generate random output to generate random output to generate random output to generate random output to generate random output to generate random output to enhance user interface design to enhance user interface design to enhance user interface design to enhance user interface design to enhance user interface design to enhance user interface design  1/4</slidetext>
+      <slidetext slideid="637T3qZ44IQ.6Eo30zQt3S1" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue what can be the consequence of using vague prompts in ai interactions? they always yield the most creative responses they always yield the most creative responses they always yield the most creative responses they always yield the most creative responses they always yield the most creative responses they always yield the most creative responses they can lead to broad and unfocused answer they can lead to broad and unfocused answer they can lead to broad and unfocused answer they can lead to broad and unfocused answer they can lead to broad and unfocused answer they can lead to broad and unfocused answer they improve specificity of ai output they improve specificity of ai output they improve specificity of ai output they improve specificity of ai output they improve specificity of ai output they improve specificity of ai output they reduce the relevance of generated responses they reduce the relevance of generated responses they reduce the relevance of generated responses they reduce the relevance of generated responses they reduce the relevance of generated responses they reduce the relevance of generated responses  2/4 </slidetext>
+      <slidetext slideid="637T3qZ44IQ.6qqWF3bARTB" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue according to the lesson, how does clarity in prompting impact ai responses? it has not effect on the ai output it has not effect on the ai output it has not effect on the ai output it has not effect on the ai output it has not effect on the ai output it has not effect on the ai output it can enhance the quality and precision of responses it can enhance the quality and precision of responses it can enhance the quality and precision of responses it can enhance the quality and precision of responses it can enhance the quality and precision of responses it can enhance the quality and precision of responses it only works in creative writing prompt it only works in creative writing prompt it only works in creative writing prompt it only works in creative writing prompt it only works in creative writing prompt it only works in creative writing prompt it complicates ai’s understanding it complicates ai’s understanding it complicates ai’s understanding it complicates ai’s understanding it complicates ai’s understanding it complicates ai’s understanding  3/4 </slidetext>
+      <slidetext slideid="637T3qZ44IQ.6bBrtotpc32" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue what is the significance of tailoring prompts according to the lesson? it is discouraged as it creates confusion it is discouraged as it creates confusion it is discouraged as it creates confusion it is discouraged as it creates confusion it is discouraged as it creates confusion it is discouraged as it creates confusion it can help achieve various objectives from ai it can help achieve various objectives from ai it can help achieve various objectives from ai it can help achieve various objectives from ai it can help achieve various objectives from ai it can help achieve various objectives from ai it is only necessary for technical queries it is only necessary for technical queries it is only necessary for technical queries it is only necessary for technical queries it is only necessary for technical queries it is only necessary for technical queries it reduces the risk of ai error it reduces the risk of ai error it reduces the risk of ai error it reduces the risk of ai error it reduces the risk of ai error it reduces the risk of ai error  4/4 </slidetext>
+      <slidetext slideid="6SqHdKMu97N.5jUqiWrHcQa" slidebank="false" type="slide">unishare</slidetext>
+      <slidetext slideid="6SqHdKMu97N.5qoeUUozXwE" slidebank="false" type="slide"> unishare introduction to prompt engineering start objectives</slidetext>
+      <slidetext slideid="6SqHdKMu97N.6MG6BVBSBXa" slidebank="false" type="slide">outlines introduction to prompt engineering introduction to prompt engineering introduction to prompt engineering understanding prompt understanding prompt understanding prompt types of prompts types of prompts types of prompts designing effective prompts designing effective prompts designing effective prompts locked you must complete module 1 – introduction to prompt engineering to continue  locked you must complete module 2 – understanding prompts  locked you must complete module 3 – types of prompts </slidetext>
+    </search>
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
   <transcript_data />
